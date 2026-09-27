@@ -1,4 +1,248 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Synapsis by Veronica Romero | Psicología & Desarrollo Integral</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo" data-page="inicio">
+        <img src="./Synapsis Logo.png" alt="Synapsis by Veronica Romero" class="logo-img">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#inicio" class="nav-link active" data-page="inicio">Inicio</a>
+        <a href="#terapia" class="nav-link" data-page="terapia">Terapia</a>
+        <a href="#formacion-clinica" class="nav-link" data-page="formacion-clinica">Formación Clínica</a>
+        <a href="#contacto" class="nav-link" data-page="contacto">Contacto</a>
+      </nav>
+
+      <div class="social-links">
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="content-wrapper">
+
+    <!-- HOME / INICIO -->
+    <section id="inicio" class="page-section active">
+      <div class="hero">
+        <div class="container hero-content">
+          <span class="badge">Desarrollo Humano Integral</span>
+          <h1>Conectando mente, emoción y entorno laboral</h1>
+          <p class="hero-subtext">
+            En <strong>Synapsis</strong> conectamos el bienestar emocional con la estrategia empresarial para potencializar el desarrollo de las personas y las organizaciones.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary nav-trigger" data-page="contacto">Agendar Consulta</button>
+            <button class="btn btn-secondary nav-trigger" data-page="terapia">Ver Servicios</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROFILE CARD SECTION -->
+      <div class="container profile-section">
+        <div class="profile-card">
+          <div class="profile-img-container">
+            <img src="./IMG_4152.jpg" alt="Veronica Romero - Founder & Psychologist" class="profile-img">
+          </div>
+          <div class="profile-info">
+            <span class="profile-title">Fundadora & Especialista</span>
+            <h2>Veronica Romero</h2>
+            <p class="profile-bio">
+              Psicóloga con alta inteligencia emocional y enfoque estratégico. Acompaño procesos humanos guiando la psicoterapia y la consultoría organizacional con sensibilidad, cercanía y una sólida estructura profesional.
+            </p>
+            <ul class="profile-highlights">
+              <li><span class="check-icon">✓</span> Terapia Emocional y Autoconocimiento</li>
+              <li><span class="check-icon">✓</span> Estrategia de Capital Humano & Cultura Laboral</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container feature-grid">
+        <div class="card">
+          <div class="card-icon">🧠</div>
+          <h3>Psicoterapia (B2C)</h3>
+          <p>Espacios confidenciales y seguros dirigidos a adultos y jóvenes profesionales en procesos de cambio, autoconocimiento o búsqueda de apoyo emocional.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <h3>Capital Humano (B2B)</h3>
+          <p>Soluciones estratégicas para líderes, gerentes, áreas de Recursos Humanos y empresas en crecimiento con un enfoque profesional y humano.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🏢</div>
+          <h3>Filosofía del Imagotipo</h3>
+          <p>El centro representa a la persona, las líneas simbolizan vínculos fluidos y los nodos actúan como redes de apoyo entre el equilibrio personal y el profesional.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TERAPIA -->
+    <section id="terapia" class="page-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Psicoterapia (B2C)</span>
+          <h2>Procesos de Autoconocimiento y Salud Emocional</h2>
+          <p>Espacios confidenciales y seguros con un tono cercano, cálido, empático y sereno.</p>
+        </div>
+
+        <div class="services-list">
+          <article class="service-card">
+            <h3>Servicios Integrados B2C</h3>
+            <p>Acompañamiento centrado en el desarrollo integral de las personas en procesos de cambio o autoconocimiento.</p>
+            <ul>
+              <li>Terapia Emocional para comprender y gestionar emociones.</li>
+              <li>Acompañamiento Psicológico guiado para el crecimiento personal.</li>
+              <li>Procesos de Autoconocimiento para alcanzar el equilibrio.</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <h3>Propósito y Enfoque de Comunicación</h3>
+            <p>Conectar a las personas con su bienestar emocional y su potencial profesional.</p>
+            <ul>
+              <li>Enfoque centrado en procesos, desarrollo y crecimiento sostenible.</li>
+              <li>Vocabulario clave: Conexión, equilibrio, salud emocional y bienestar.</li>
+              <li>Ambiente sereno y seguro orientado a la resiliencia y el acompañamiento.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMACIÓN CLÍNICA -->
+    <section id="formacion-clinica" class="page-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Capital Humano (B2B)</span>
+          <h2>Soluciones Estratégicas Organizacionales</h2>
+          <p>Intervenciones profesionales y humanas para estructurar y potenciar equipos de trabajo.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="info-box">
+            <h3>Servicios Integrados B2B</h3>
+            <p>Dirigido a líderes, gerentes, áreas de Recursos Humanos y empresas en crecimiento.</p>
+            <ul class="check-list">
+              <li>Reclutamiento y Selección para la atracción de talento alineado a la cultura.</li>
+              <li>Evaluaciones Psicométricas con análisis profundo y técnico.</li>
+              <li>Capacitación y Desarrollo para fortalecer competencias y equipos.</li>
+              <li>Clima Laboral y Acompañamiento Organizacional para entornos saludables.</li>
+            </ul>
+          </div>
+
+          <div class="info-box">
+            <h3>Misión, Visión y Valores</h3>
+            <p>Impulsamos el desarrollo integral y el crecimiento sostenible de individuos y organizaciones.</p>
+            <ul class="check-list">
+              <li>Misión: Brindar servicios que impulsen el desarrollo integral y el crecimiento sostenible.</li>
+              <li>Visión: Ser referente en desarrollo humano uniendo el bienestar emocional con la estrategia empresarial.</li>
+              <li>Comunicación estratégica, clara y profundamente humana.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="page-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Contacto</span>
+          <h2>Comienza tu Proceso en Synapsis</h2>
+          <p>Escríbenos para agendar una sesión inicial o solicitar una propuesta organizativa.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nombre Completo</label>
+              <input type="text" id="name" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" required placeholder="tu@email.com">
+            </div>
+            <div class="form-group">
+              <label for="service">Servicio de Interés</label>
+              <select id="service">
+                <option value="terapia-emocional">Terapia Emocional / Psicoterapia (B2C)</option>
+                <option value="acompanamiento-psicologico">Acompañamiento Psicológico</option>
+                <option value="capital-humano">Capital Humano & Servicios B2B</option>
+                <option value="capacitacion-desarrollo">Capacitación y Desarrollo</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" rows="4" required placeholder="¿En qué podemos ayudarte?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">Enviar Mensaje</button>
+            <div class="form-feedback" id="formFeedback"></div>
+          </form>
+
+          <div class="contact-info">
+            <div class="info-card">
+              <h4>Consultorio Presencial</h4>
+              <p>Av. Principal #450, Piso 3<br>Zona Saludable</p>
+            </div>
+            <div class="info-card">
+              <h4>Contacto Directo</h4>
+              <p>Email: contacto@synapsis.com<br>Tel: +52 (55) 0000-0000</p>
+            </div>
+            <div class="info-card">
+              <h4>Síguenos en Redes</h4>
+              <div class="social-links-inline">
+                <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Synapsis by Veronica Romero. Todos los derechos reservados.</p>
+      <div class="social-links">
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html><!DOCTYPE html>
 <html lang="es"> 
 <head>
   <meta charset="UTF-8">
